@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DollarDaysEditWishlist]">
+  <listeners>
+    <listener class-name="com.dollardays.listners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Editwishlist(failed)">
+    <classes>
+      <class name="com.dollardays.testcases.EditWishTestcases">
+        <methods>
+          <include name="TC_04_orgnpage" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="TC_03_editproduct"/>
+          <include name="TC_02_projpage" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="TC_01_editorgpage" invocation-numbers="0"/>
+          <include name="TC_05_projpage" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="setUpBrowser"/>
+        </methods>
+      </class> <!-- com.dollardays.testcases.EditWishTestcases -->
+    </classes>
+  </test> <!-- Editwishlist(failed) -->
+</suite> <!-- Failed suite [DollarDaysEditWishlist] -->
